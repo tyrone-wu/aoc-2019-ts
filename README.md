@@ -1,3 +1,7 @@
+# 🎄 Advent of Code 2019
+
+![SolarSystem](./solar-system.png)
+
 # 🎄 AdventOfCode-typescript-template 🎄
 
 This is a TypeScript boilerplate for Advent of Code.
@@ -63,9 +67,22 @@ export { first, expectedFirstSolution, second, expectedSecondSolution };
 
 When your solution is ready, or when you want to start developing incrementally (watch mode) run `pnpm dev {day}` where {day} is the day you are working on, i.e. `pnpm dev 1` will run the puzzle class for day 1.
 
+```bash
+# Run the solution for the specific puzzle day.
+$ pnpm dev $DAY
+```
+
 ## 🧪 Testing
 
-You can run test for all puzzles agains their expected output with `pnpm t` this will test all the solutions in the `days` folder
+You can run test for all puzzles agains their expected output with `pnpm t` this will test all the solutions in the `days` folder.
+
+```bash
+# Run the test cases for all existing puzzle days.
+$ pnpm t
+
+# Run the test case for specific puzzle day.
+$ pnpm t -t $DAY
+```
 
 ## 🛫 Contributing
 
